@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #171717;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #080808;
+    padding: 25px;
+}
+
+h1 {
+    color: #d4a84b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#acasa {
+    background-color: #292929;
+    padding: 100px 20px;
+}
+
+h2 {
+    color: #d4a84b;
+}
+
+.buton {
+    display: inline-block;
+    background-color: #d4a84b;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #080808;
+    padding: 20px;
+}
+
+/* Fotografia principală */
+#acasa img {
+    width: 80%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+/* Titlurile */
+h2 {
+    font-size: 32px;
+}
+
+/* Servicii */
+#servicii p {
+    background-color: #292929;
+    padding: 18px;
+    margin: 12px auto;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Buton */
+.buton:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Adaptare pentru telefon */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    #acasa img {
+        width: 100%;
+        height: 220px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
